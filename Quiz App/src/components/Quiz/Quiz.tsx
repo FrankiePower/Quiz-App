@@ -75,16 +75,10 @@ export const Quiz = () => {
       {result ? (
         <>
           <div className="gif-container">
-            <img
-              src="src/assets/my-man-together.gif"
-              width="480"
-              height="264"
-              alt="meme"
-            />
             <div className="hd2">
-              <h2>
+              <h1>
                 You Scored {score} of {data.length}{" "}
-              </h2>
+              </h1>
             </div>
           </div>
         </>
